@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Port de la Mer · Pricing Strategy 2026–2027</title>
+<style>
+  :root {
+    --ink: #1d1d1f;
+    --ink-2: #6e6e73;
+    --ink-3: #86868b;
+    --line: #d2d2d7;
+    --bg: #ffffff;
+    --bg-2: #f5f5f7;
+    --bg-3: #fafafa;
+    --accent: #0071e3;
+    --green: #00a96e;
+    --amber: #b25000;
+    --red: #c03030;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 400;
+    -webkit-font-feature-settings: "ss01", "cv11";
+    font-feature-settings: "ss01", "cv11";
+  }
+
+  .page {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 80px 48px 120px;
+  }
+
+  /* Typography */
+  h1, h2, h3, h4 {
+    font-family: 'New York', 'New York Medium', 'Iowan Old Style', 'Georgia', serif;
+    color: var(--ink);
+    letter-spacing: -0.02em;
+    font-weight: 600;
+  }
+
+  h1 {
+    font-size: 56px;
+    line-height: 1.05;
+    font-weight: 700;
+    margin-bottom: 16px;
+    letter-spacing: -0.03em;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 1.15;
+    margin-top: 80px;
+    margin-bottom: 24px;
+    letter-spacing: -0.025em;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 1.25;
+    margin-top: 48px;
+    margin-bottom: 16px;
+  }
+
+  h4 {
+    font-size: 19px;
+    line-height: 1.3;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+
+  p { margin-bottom: 16px; color: var(--ink); }
+
+  .lede {
+    font-size: 21px;
+    line-height: 1.5;
+    color: var(--ink-2);
+    font-weight: 400;
+    max-width: 740px;
+    margin-bottom: 8px;
+  }
+
+  .meta {
+    color: var(--ink-3);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+
+  /* Cards & containers */
+  .card {
+    background: var(--bg-2);
+    border-radius: 16px;
+    padding: 32px;
+    margin: 24px 0;
+  }
+
+  .card-light {
+    background: var(--bg-3);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 28px;
+    margin: 24px 0;
+  }
+
+  .pull-quote {
+    font-family: 'New York', 'Iowan Old Style', 'Georgia', serif;
+    font-size: 26px;
+    line-height: 1.4;
+    color: var(--ink);
+    border-left: 3px solid var(--ink);
+    padding-left: 24px;
+    margin: 40px 0;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+    font-size: 15px;
+  }
+
+  th, td {
+    padding: 14px 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+
+  th {
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-2);
+    background: var(--bg-2);
+    border-bottom: 1px solid var(--line);
+  }
+
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.center, th.center { text-align: center; }
+
+  tr.peak td { background: rgba(178, 80, 0, 0.05); font-weight: 500; }
+  tr.peak td strong { color: var(--amber); }
+
+  tr.nye td { background: rgba(192, 48, 48, 0.06); font-weight: 600; }
+  tr.nye td strong { color: var(--red); }
+
+  /* Listing summary */
+  .summary-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 32px;
+    margin-top: 16px;
+  }
+
+  .summary-grid div {
+    border-top: 1px solid var(--line);
+    padding-top: 12px;
+  }
+
+  .summary-grid .label {
+    font-size: 13px;
+    color: var(--ink-3);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+
+  .summary-grid .value {
+    font-size: 17px;
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  /* Visual chart */
+  .chart {
+    margin: 32px 0;
+    padding: 32px;
+    background: var(--bg-2);
+    border-radius: 16px;
+  }
+
+  .chart-row {
+    display: grid;
+    grid-template-columns: 130px 1fr 90px;
+    gap: 16px;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 14px;
+  }
+
+  .chart-row .label {
+    color: var(--ink-2);
+    font-weight: 500;
+  }
+
+  .chart-row .bar {
+    height: 22px;
+    background: linear-gradient(90deg, var(--ink) 0%, var(--ink) 100%);
+    border-radius: 4px;
+    transition: width 0.3s ease;
+  }
+
+  .chart-row.nye-bar .bar { background: var(--red); }
+  .chart-row.peak-bar .bar { background: var(--amber); }
+
+  .chart-row .price {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+    color: var(--ink);
+  }
+
+  /* Action list */
+  ol.actions, ul.checklist {
+    margin: 16px 0 16px 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: item;
+  }
+
+  ol.actions li {
+    counter-increment: item;
+    padding: 16px 0 16px 56px;
+    border-bottom: 1px solid var(--line);
+    position: relative;
+    font-size: 16px;
+    line-height: 1.55;
+  }
+
+  ol.actions li:last-child { border-bottom: none; }
+
+  ol.actions li::before {
+    content: counter(item);
+    position: absolute;
+    left: 0;
+    top: 14px;
+    width: 32px;
+    height: 32px;
+    background: var(--ink);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  ul.checklist li {
+    padding: 8px 0 8px 32px;
+    position: relative;
+    font-size: 15px;
+  }
+
+  ul.checklist li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--ink-3);
+    font-weight: 500;
+  }
+
+  /* Verdict pill */
+  .verdict {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+  .verdict.good { background: rgba(0, 169, 110, 0.12); color: var(--green); }
+  .verdict.warn { background: rgba(178, 80, 0, 0.12); color: var(--amber); }
+  .verdict.bad  { background: rgba(192, 48, 48, 0.12); color: var(--red); }
+
+  /* Sources */
+  .sources {
+    margin-top: 64px;
+    padding-top: 32px;
+    border-top: 1px solid var(--line);
+    font-size: 14px;
+    color: var(--ink-2);
+  }
+
+  .sources a {
+    color: var(--ink-2);
+    text-decoration: none;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .sources a:hover { color: var(--accent); border-color: var(--accent); }
+
+  .sources li { padding: 4px 0; }
+
+  /* Footer */
+  footer {
+    margin-top: 80px;
+    padding-top: 32px;
+    border-top: 1px solid var(--line);
+    color: var(--ink-3);
+    font-size: 13px;
+    text-align: center;
+  }
+
+  /* Print */
+  @media print {
+    body { font-size: 11pt; }
+    .page { padding: 0; max-width: 100%; }
+    h1 { font-size: 32pt; }
+    h2 { font-size: 20pt; margin-top: 32pt; page-break-after: avoid; }
+    h3 { font-size: 14pt; page-break-after: avoid; }
+    .card, .card-light, .chart { break-inside: avoid; }
+    table { break-inside: auto; }
+    tr { break-inside: avoid; break-after: auto; }
+    .pull-quote { break-inside: avoid; }
+  }
+
+  @media (max-width: 720px) {
+    .page { padding: 48px 24px 80px; }
+    h1 { font-size: 40px; }
+    h2 { font-size: 28px; }
+    .summary-grid { grid-template-columns: 1fr; }
+    .chart-row { grid-template-columns: 100px 1fr 70px; font-size: 12px; }
+    table { font-size: 13px; }
+    th, td { padding: 10px 8px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <p class="meta">Airbnb Pricing Strategy · Updated June 2026</p>
+  <h1>Port de la Mer<br><span style="color: var(--ink-2); font-weight: 400;">Full-year pricing · Jun 2026 → Jun 2027</span></h1>
+  <p class="lede">A full-year pricing plan (Jun 2026 → Jun 2027) for a 1-bedroom apartment with Burj Khalifa view, built on live competitor scans across 17 date ranges and the 2026–2027 Dubai event calendar. All prices in AED.</p>
+
+  <!-- LISTING SUMMARY -->
+  <h2>The listing</h2>
+  <div class="card">
+    <div class="summary-grid">
+      <div>
+        <div class="label">Building</div>
+        <div class="value">Port de la Mer · Jumeirah 1, Dubai</div>
+      </div>
+      <div>
+        <div class="label">Layout</div>
+        <div class="value">1 BR / 1 BA · 74 m² · sleeps 2 · king bed</div>
+      </div>
+      <div>
+        <div class="label">Furnishing</div>
+        <div class="value">Italian designer · pool, gym, beach access (3–5 min)</div>
+      </div>
+      <div>
+        <div class="label">View</div>
+        <div class="value">Mid-floor · marina-facing · Burj Khalifa visible across water</div>
+      </div>
+      <div>
+        <div class="label">Reviews <span style="color: var(--accent, #c8a04f);">(updated Jun 2026)</span></div>
+        <div class="value">4.80 ★ · 5 reviews · <strong>Guest Favourite ✨</strong> · 5 months hosting</div>
+      </div>
+      <div>
+        <div class="label">Current price (live, Jul 4–11)</div>
+        <div class="value">AED 3,043 / 7 nights (~AED 435/night) · above the AED 350–380 summer floor</div>
+      </div>
+    </div>
+  </div>
+
+  <p class="pull-quote">📈 <strong>New since April:</strong> the listing jumped from 4.67★ / 3 reviews to <strong>4.80★ / 5 reviews</strong> and earned the <strong>Guest Favourite</strong> badge — Airbnb's top-listings signal. That badge normally takes far more than 5 reviews. <strong>Pricing implication:</strong> Sema can move to the <em>"After 15+ reviews"</em> (seasonal-median) column <strong>now</strong>, ahead of schedule — the badge does the trust-building that review volume usually would. Treat the lower "Now" column as a floor, not the target.</p>
+
+  <!-- VIEW VERDICT -->
+  <h2>The view — top tier, not the best</h2>
+  <p>An honest read after comparing Sema's photos against eight other 1-bedroom Port de la Mer listings: <strong>this view beats roughly 80% of competitor listings.</strong> Most "sea view" claims in the development are marketing — actual balconies face internal courtyards or the opposite building's roof.</p>
+
+  <p>Sema's apartment is genuinely differentiated: marina water in the foreground, the opposite Port de la Mer arm in the middle distance, and the full Dubai skyline including a clearly visible Burj Khalifa across the water. <strong>The Burj Khalifa visibility is the real selling point.</strong></p>
+
+  <table>
+    <thead>
+      <tr><th>Comparable listing</th><th>View vs Sema's</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>WOW Skyline View (5.0★, 9 reviews)</td><td><span class="verdict warn">Better</span> — higher floor, sees actual beach + open sea</td></tr>
+      <tr><td>Stunning View Beachfront (no reviews)</td><td><span class="verdict good">Equivalent</span> — same orientation, weaker Burj visibility</td></tr>
+      <tr><td>Private Beach Access (4.8★, 40 reviews)</td><td><span class="verdict bad">Much worse</span> — ground floor, looks at landscaping</td></tr>
+      <tr><td>Radiant &amp; Chic w/ Sea View (5.0★, 5 reviews)</td><td><span class="verdict bad">Much worse</span> — looks at opposite building roof tiles</td></tr>
+      <tr><td>Peaceful &amp; Elegant Seaside (4.96★, 69 reviews)</td><td><span class="verdict bad">Much worse</span> — listing photos avoid the view entirely</td></tr>
+    </tbody>
+  </table>
+
+  <p style="color: var(--ink-2);">Recommendation: don't claim "the best view in La Mer" — top-floor seaward units beat it. <strong>Claim "Burj Khalifa &amp; marina view" or "top-tier view in Port de la Mer"</strong> — accurate and still strong.</p>
+
+  <!-- COMP MEDIANS -->
+  <h2>Live competitor data</h2>
+  <p>Median nightly rates from Port de la Mer 1BR listings (<strong>AED guest-total</strong>, what a guest pays per night including Airbnb's fee — weekend Fri–Sat) scanned across eleven date ranges between May and Dec 2026.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Date scanned</th>
+        <th class="num">Comps</th>
+        <th class="num">Min AED</th>
+        <th class="num">Median AED</th>
+        <th class="num">Max AED</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>May 29–31</td><td class="num">24</td><td class="num">193</td><td class="num"><strong>466</strong></td><td class="num">680</td></tr>
+      <tr><td>Jun 15–17</td><td class="num">11</td><td class="num">386</td><td class="num"><strong>527</strong></td><td class="num">884</td></tr>
+      <tr><td>Jul 17–19</td><td class="num">10</td><td class="num">386</td><td class="num"><strong>527</strong></td><td class="num">910</td></tr>
+      <tr><td>Aug 14–16 <em>(floor)</em></td><td class="num">9</td><td class="num">377</td><td class="num"><strong>527</strong></td><td class="num">921</td></tr>
+      <tr><td>Sep 18–20</td><td class="num">10</td><td class="num">527</td><td class="num"><strong>788</strong></td><td class="num">1,031</td></tr>
+      <tr><td>Oct 23–25</td><td class="num">11</td><td class="num">737</td><td class="num"><strong>968</strong></td><td class="num">2,654</td></tr>
+      <tr><td>Nov 13–15</td><td class="num">12</td><td class="num">848</td><td class="num"><strong>1,032</strong></td><td class="num">1,810</td></tr>
+      <tr class="peak"><td>Dec 4–6 <em>(F1 + UAE NatDay)</em></td><td class="num">12</td><td class="num">848</td><td class="num"><strong>1,144</strong></td><td class="num">2,654</td></tr>
+      <tr><td>Dec 11–13</td><td class="num">12</td><td class="num">848</td><td class="num"><strong>1,144</strong></td><td class="num">2,654</td></tr>
+      <tr class="peak"><td>Dec 24–26 <em>(Christmas)</em></td><td class="num">10</td><td class="num">957</td><td class="num"><strong>1,639</strong></td><td class="num">2,654</td></tr>
+      <tr><td>Dec 28–30</td><td class="num">9</td><td class="num">1,197</td><td class="num"><strong>1,749</strong></td><td class="num">2,760</td></tr>
+      <tr class="nye"><td>Dec 30–Jan 1 <em>(NYE)</em></td><td class="num">6</td><td class="num">1,670</td><td class="num"><strong>2,695</strong></td><td class="num">2,821</td></tr>
+    </tbody>
+  </table>
+
+  <p class="pull-quote">August is the floor at ~527 AED median. NYE is <strong>5.1× higher</strong>. Christmas triples the floor. Mid-October already doubles it.</p>
+
+  <p style="color: var(--ink-2); font-size: 14px;"><strong>June 2026 re-scan — 2027 windows</strong> (AED guest-total median/night): Russian Christmas Jan 2–5 <strong>909</strong> · winter peak Jan 15–18 <strong>1,050</strong> · pre-Ramadan Feb 1–4 <strong>935</strong> · Ramadan Feb 20–23 <strong>858</strong> · Dubai World Cup Mar 26–29 <strong>784</strong> · spring Apr 17–20 <strong>639</strong>. November 2026 re-scan came in at <strong>1,126</strong> (≈9% above the April figure — hence the Nov nudge to AED 850 host).</p>
+
+  <!-- DEMAND CALENDAR -->
+  <h2>Dubai 2026 demand calendar</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Window</th>
+        <th class="center">Multiplier vs Aug</th>
+        <th>Driver</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Jun 1 – Sep 15</td><td class="center">1.0×</td><td>Hot summer, lowest demand</td></tr>
+      <tr><td>Sep 16 – Sep 30</td><td class="center">1.5×</td><td>Weather breaks, returning expats</td></tr>
+      <tr><td>Oct 1 – Oct 25</td><td class="center">1.7×</td><td>Cooling, family travel</td></tr>
+      <tr><td>Oct 26 – Oct 30</td><td class="center">1.9×</td><td>UK half-term holiday</td></tr>
+      <tr><td>Nov 1 – Nov 22</td><td class="center">2.0×</td><td>Peak weather, "best month" demand</td></tr>
+      <tr><td>Nov 23 – Nov 29</td><td class="center">2.2×</td><td>Pre-National-Day inflow</td></tr>
+      <tr><td>Nov 30 – Dec 3</td><td class="center">2.5×</td><td>UAE 55th National Day</td></tr>
+      <tr class="peak"><td><strong>Dec 4 – Dec 7</strong></td><td class="center"><strong>3.0×</strong></td><td><strong>F1 Abu Dhabi GP weekend</strong></td></tr>
+      <tr><td>Dec 8 – Dec 15</td><td class="center">2.2×</td><td>DSF starts, weekday lull</td></tr>
+      <tr><td>Dec 16 – Dec 22</td><td class="center">2.6×</td><td>Pre-Christmas inflow</td></tr>
+      <tr class="peak"><td><strong>Dec 23 – Dec 27</strong></td><td class="center"><strong>3.2×</strong></td><td><strong>Christmas peak</strong></td></tr>
+      <tr><td>Dec 28 – Dec 29</td><td class="center">3.4×</td><td>Pre-NYE arrivals</td></tr>
+      <tr class="nye"><td><strong>Dec 30 – Jan 1</strong></td><td class="center"><strong>5.1×</strong></td><td><strong>NYE Burj Khalifa fireworks</strong></td></tr>
+    </tbody>
+  </table>
+
+  <!-- PRICING TABLE -->
+  <h2>Recommended host nightly rate</h2>
+  <p>Two columns: <strong>Now</strong> (new listing) is priced 10% below seasonal median to win bookings and accumulate reviews. <strong>After 15+ reviews</strong> at 4.7★+ matches seasonal median. <strong>As of June 2026, with the Guest Favourite badge and 4.80★, prefer the "After 15+ reviews" column</strong> — the badge already provides the trust the second tier assumes.</p>
+
+  <p style="color: var(--ink-3); font-size: 14px;">Set these prices on the host side. Airbnb adds ~14% guest service fee on top.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Period</th>
+        <th class="num">Days</th>
+        <th class="num">Now (new)<br>AED</th>
+        <th class="num">After 15+ rev<br>AED</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>May 1–28 (low)</td><td class="num">28</td><td class="num">380</td><td class="num">425</td><td>Drop from current 460</td></tr>
+      <tr><td>May 29 – Jun 30</td><td class="num">33</td><td class="num">380</td><td class="num">425</td><td>Approaching summer</td></tr>
+      <tr><td>Jul 1 – Aug 31 (rock bottom)</td><td class="num">62</td><td class="num">350</td><td class="num">380</td><td>−20% for 28+ night stays</td></tr>
+      <tr><td>Sep 1–15</td><td class="num">15</td><td class="num">380</td><td class="num">420</td><td>Weather still hot, demand not pivoted</td></tr>
+      <tr><td>Sep 16–30</td><td class="num">15</td><td class="num">540</td><td class="num">600</td><td>Demand awakens</td></tr>
+      <tr><td>Oct 1–22</td><td class="num">22</td><td class="num">660</td><td class="num">740</td><td>Tourists return</td></tr>
+      <tr><td>Oct 23–31 (UK half-term)</td><td class="num">9</td><td class="num">770</td><td class="num">870</td><td>British family bump + Halloween</td></tr>
+      <tr><td>Nov 1–22</td><td class="num">22</td><td class="num">850</td><td class="num">950</td><td>Best Dubai weather (re-scan Jun-26)</td></tr>
+      <tr><td>Nov 23–29</td><td class="num">7</td><td class="num">900</td><td class="num">1,020</td><td>National Day approach</td></tr>
+      <tr><td>Nov 30 – Dec 3 (UAE NatDay)</td><td class="num">4</td><td class="num">1,030</td><td class="num">1,150</td><td>3-day public holiday</td></tr>
+      <tr class="peak"><td><strong>Dec 4–7 (F1 GP)</strong></td><td class="num">4</td><td class="num"><strong>1,100</strong></td><td class="num"><strong>1,200</strong></td><td>Spillover only — race is in Abu Dhabi</td></tr>
+      <tr><td>Dec 8–15</td><td class="num">8</td><td class="num">920</td><td class="num">1,030</td><td>DSF underway</td></tr>
+      <tr><td>Dec 16–22</td><td class="num">7</td><td class="num">1,080</td><td class="num">1,210</td><td>Pre-Christmas</td></tr>
+      <tr class="peak"><td><strong>Dec 23–27 (Christmas)</strong></td><td class="num">5</td><td class="num"><strong>1,500</strong></td><td class="num"><strong>1,680</strong></td><td>5-night minimum</td></tr>
+      <tr><td>Dec 28–29</td><td class="num">2</td><td class="num">1,610</td><td class="num">1,800</td><td>Bridge to NYE</td></tr>
+      <tr class="nye"><td><strong>Dec 30 – Jan 1 (NYE)</strong></td><td class="num">3</td><td class="num"><strong>2,200</strong></td><td class="num"><strong>2,500</strong></td><td>4-night minimum</td></tr>
+      <tr><td>Jan 2–8 '27 (Russian Orthodox Xmas)</td><td class="num">7</td><td class="num">760</td><td class="num">850</td><td>CIS holiday wave, 3-night min</td></tr>
+      <tr><td>Jan 9–31 '27 (winter-sun peak)</td><td class="num">23</td><td class="num">820</td><td class="num">920</td><td>Prime season, DSF to ~Jan 29</td></tr>
+      <tr><td>Feb 1–5 '27 (pre-Ramadan)</td><td class="num">5</td><td class="num">780</td><td class="num">870</td><td>Peak winter + Valentine's</td></tr>
+      <tr><td>Feb 6 – Mar 7 '27 (Ramadan)</td><td class="num">30</td><td class="num">690</td><td class="num">770</td><td>Softer; lean on 7+ night discounts</td></tr>
+      <tr class="peak"><td><strong>Mar 8–14 '27 (Eid al-Fitr)</strong></td><td class="num">7</td><td class="num"><strong>800</strong></td><td class="num"><strong>890</strong></td><td>Regional GCC travel spike</td></tr>
+      <tr><td>Mar 15–25 '27 (spring shoulder)</td><td class="num">11</td><td class="num">650</td><td class="num">720</td><td>Post-Eid, warming</td></tr>
+      <tr><td>Mar 26–28 '27 (Dubai World Cup)</td><td class="num">3</td><td class="num">720</td><td class="num">800</td><td>Meydan event Mar 27, 2-night min</td></tr>
+      <tr><td>Mar 29 – Apr 15 '27 (spring tail)</td><td class="num">18</td><td class="num">560</td><td class="num">620</td><td>Warming into low-30s°C</td></tr>
+      <tr><td>Apr 16–30 '27 (warming)</td><td class="num">15</td><td class="num">460</td><td class="num">510</td><td>Heat building toward summer</td></tr>
+      <tr><td>May 1–31 '27 (low)</td><td class="num">31</td><td class="num">390</td><td class="num">435</td><td>Listing established, slight premium</td></tr>
+      <tr><td>Jun 1–30 '27 (summer entry)</td><td class="num">30</td><td class="num">380</td><td class="num">425</td><td>Summer floor — full year complete</td></tr>
+    </tbody>
+  </table>
+
+  <!-- VISUAL CHART -->
+  <h3>Visual yearly profile</h3>
+  <p style="color: var(--ink-2); font-size: 14px;">Host AED nightly rate, post-15-reviews tier.</p>
+
+  <div class="chart">
+    <div class="chart-row nye-bar">
+      <span class="label">NYE</span>
+      <div class="bar" style="width: 100%;"></div>
+      <span class="price">2,500</span>
+    </div>
+    <div class="chart-row peak-bar">
+      <span class="label">Christmas</span>
+      <div class="bar" style="width: 63%;"></div>
+      <span class="price">1,680</span>
+    </div>
+    <div class="chart-row peak-bar">
+      <span class="label">F1 GP</span>
+      <div class="bar" style="width: 48%;"></div>
+      <span class="price">1,200</span>
+    </div>
+    <div class="chart-row">
+      <span class="label">Mid-Dec</span>
+      <div class="bar" style="width: 46%;"></div>
+      <span class="price">1,210</span>
+    </div>
+    <div class="chart-row">
+      <span class="label">UAE NatDay</span>
+      <div class="bar" style="width: 43%;"></div>
+      <span class="price">1,150</span>
+    </div>
+    <div class="chart-row">
+      <span class="label">Nov peak</span>
+      <div class="bar" style="width: 38%;"></div>
+      <span class="price">950</span>
+    </div>
+    <div class="chart-row">
+      <span class="label">Jan peak '27</span>
+      <div class="bar" style="width: 37%;"></div>
+      <span class="price">920</span>
+    </div>
+    <div class="chart-row">
+      <span class="label">Eid '27</span>
+      <div class="bar" style="width: 36%;"></div>
+      <span class="price">890</span>
+    </div>
+    <div class="chart-row">
+      <span class="label">UK half-term</span>
+      <div class="bar" style="width: 33%;"></div>
+      <span class="price">870</span>
+    </div>
+    <div class="chart-row">
+      <span class="label">Oct</span>
+      <div class="bar" style="width: 28%;"></div>
+      <span class="price">740</span>
+    </div>
+    <div class="chart-row">
+      <span class="label">Sep late</span>
+      <div class="bar" style="width: 23%;"></div>
+      <span class="price">600</span>
+    </div>
+    <div class="chart-row">
+      <span class="label">Ramadan '27</span>
+      <div class="bar" style="width: 31%;"></div>
+      <span class="price">770</span>
+    </div>
+    <div class="chart-row">
+      <span class="label">Sep early</span>
+      <div class="bar" style="width: 17%;"></div>
+      <span class="price">420</span>
+    </div>
+    <div class="chart-row">
+      <span class="label">May / Jun</span>
+      <div class="bar" style="width: 16%;"></div>
+      <span class="price">425</span>
+    </div>
+    <div class="chart-row">
+      <span class="label">Jul – Aug</span>
+      <div class="bar" style="width: 14%;"></div>
+      <span class="price">380</span>
+    </div>
+  </div>
+
+  <!-- ACTIONS -->
+  <h2>Actions to take this week</h2>
+  <ol class="actions">
+    <li><strong>Edit the listing title.</strong> Change "La Mer Iconic View" to <em>"Port la Mer · Burj Khalifa View · Designer 1BR"</em> — bookers search by view + landmark, and Burj Khalifa is the true differentiator.</li>
+    <li><strong>Add at least 4 view photos.</strong> Currently only 2 of 14 photos show the view. Shoot at golden hour with Burj Khalifa centered. The view is the killer feature — show it.</li>
+    <li><strong>Drop May–Aug price to AED 380.</strong> Live July rate is ~AED 435/night — still above the summer floor during Dubai's worst tourist months. Will lose to comps charging AED 350–430.</li>
+    <li><strong>Block Dec 30 – Jan 1 immediately.</strong> Re-open with 4-night minimum at AED 2,200. Anyone booking those dates today at current pricing leaves ~AED 5,000/night on the table.</li>
+    <li><strong>Set length-of-stay discounts:</strong> 7+ nights −10%, 14+ −15%, 28+ −22%. Helps fight summer slump.</li>
+    <li><strong>Turn off Smart Pricing.</strong> Use the seasonal table above. Smart Pricing under-prices premium-view units and won't capture event premiums.</li>
+    <li><strong>Keep pushing for reviews:</strong> now at 5 reviews + Guest Favourite ✨ (badge already earned — ahead of plan). Next milestone 15 reviews to fully lock the median tier. Day-of-checkout WhatsApp asking for a review.</li>
+  </ol>
+
+  <!-- REVENUE PROJECTION -->
+  <h2>Annual revenue projection</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Scenario</th>
+        <th class="num">ADR (host AED)</th>
+        <th class="num">Occupancy</th>
+        <th class="num">Annual gross</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Current pricing held flat</td>
+        <td class="num">~435</td>
+        <td class="num">50%</td>
+        <td class="num">AED 79k <span style="color: var(--ink-3);">(~$22k)</span></td>
+      </tr>
+      <tr>
+        <td><strong>Recommended (new listing tier)</strong></td>
+        <td class="num"><strong>~830</strong></td>
+        <td class="num"><strong>60%</strong></td>
+        <td class="num"><strong>AED 182k</strong> <span style="color: var(--ink-3);">(~$50k)</span></td>
+      </tr>
+      <tr>
+        <td><strong>Post-15-review tier</strong></td>
+        <td class="num"><strong>~930</strong></td>
+        <td class="num"><strong>65%</strong></td>
+        <td class="num"><strong>AED 220k</strong> <span style="color: var(--ink-3);">(~$60k)</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="pull-quote">Following the recommended pricing more than doubles annual revenue versus holding the current flat rate.</p>
+
+  <!-- SOURCES -->
+  <div class="sources">
+    <h4 style="margin-top: 0;">Sources &amp; methodology</h4>
+    <p>Live Airbnb scans of Port de la Mer 1BR listings across 17 date ranges (May 2026 → Apr 2027, 14–24 comps each). Cross-referenced with the Dubai 2026 &amp; 2027 events calendars (Ramadan, Eid, F1, Dubai World Cup, DSF, UAE National Day).</p>
+    <ul style="list-style: none; padding-left: 0; margin-top: 16px;">
+      <li><a href="https://www.visitdubai.com/en/festivals-and-events/dubai-events-calendar">Visit Dubai 2026 events calendar</a></li>
+      <li><a href="https://www.timeoutdubai.com/news/dubai-retail-calendar-2026-revealed">Time Out Dubai 2026 retail/event calendar</a></li>
+      <li><a href="https://www.abudhabigp.com/en/">F1 Abu Dhabi Grand Prix 2026 (Dec 3–6)</a></li>
+      <li><a href="https://www.dubaitravelplanner.com/dubai-events-calendar-2026/">Dubai Travel Planner 2026 monthly events</a></li>
+      <li><a href="https://hhoteldubai.com/winter-in-dubai-2026/">Winter in Dubai 2026 guide</a></li>
+      <li><a href="https://www.icelolly.com/school-holiday-dates">UK School Holiday Dates 2026</a></li>
+      <li><a href="https://www.airroi.com/airbnb-data/united-arab-emirates/dubai/dubai">AirROI Dubai 2026 STR data</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>Prepared for Sema · April 29, 2026 · extended to full year June 3, 2026 · Listing 1553428068710590281</p>
+  </footer>
+
+</div>
+</body>
+</html>
